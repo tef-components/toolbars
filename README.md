@@ -1,3 +1,3 @@
-# TEF headers
+# TEF tabs
 
-Preview headers: [http://tef-components.github.io/headers/index.html](http://tef-components.github.io/headers/index.html)
+Preview all tabs: [http://tef-components.github.io/tabs/index.html](http://tef-components.github.io/tabs/index.html)

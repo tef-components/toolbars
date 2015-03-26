@@ -26,20 +26,13 @@
         overflow-y: auto;
         border-radius: 4px;
       }
-      /* demo page only */
-      .tef-header {
-        margin-top: 20px;
-      }
-      .tef-header nav {
-        position: relative;
-      }
     </style>
   </head>
 
   <body>
-    <div class="tef-wrapper">
+    <div class="tef-wrapper tef-content">
       <header data-columns="2" data-columns-xs="1">
-        <h1>Headers</h1>
+        <h1>Tabs</h1>
         <div>
           <label>Change theme</label>
           <div class="tef-dropdown" data-icon="angle_down">
@@ -53,37 +46,7 @@
         </div>
       </header>
 
-      <header class="tef-header">
-        <nav>
-          <button id="show-menu-btn" onclick="showMenu()" class="tef-menu" data-icon="menu"></button>
-          <button id="hide-menu-btn" onclick="hideMenu()" class="tef-close" data-icon="close"></button>
-          <ul id="menu" onclick="hideMenu()">
-            <li><span>Hello George!</span><i data-icon="user"></i></li>
-            <li><a href=""><span>Help</span><i data-icon="help_circle"></i></a></li>
-            <li><a href=""><span>Exit</span><i data-icon="close_circle"></i></a></li>
-          </ul>
-        </nav>
-        <h1><a href="/">Service name</a></h1>
-        <h2>Brand name</h2>
-      </header>
-      <code>
-        <style>
-      <header class="tef-header">
-        <nav>
-          <button class="tef-menu" data-icon="menu"></button>
-          <button class="tef-close" data-icon="close"></button>
-          <ul>
-            <li><span>Hello George!</span><i data-icon="user"></i></li>
-            <li><a href=""><span>Help</span><i data-icon="help_circle"></i></a></li>
-            <li><a href=""><span>Exit</span><i data-icon="close_circle"></i></a></li>
-          </ul>
-        </nav>
-        <h1><a href="/">Service name</a></h1>
-        <h2>Brand name</h2>
-      </header>
-        </style>
-      </code>
-    </div>
+      no content yet!
 
     <script>
       var theme = document.getElementById('themeSelector');
@@ -93,19 +56,6 @@
           + theme.value + '/css/components.'
           + theme.value + '.css';
       });
-
-      var menu = document.getElementById('menu');
-      var hideMenuBtn = document.getElementById('hide-menu-btn');
-
-      function showMenu() {
-        menu.setAttribute('class','show');
-        hideMenuBtn.setAttribute('class','tef-close show');
-      }
-
-      function hideMenu() {
-        menu.setAttribute('class','');
-        hideMenuBtn.setAttribute('class','tef-close');
-      }
     </script>
   </body>
 </html>
