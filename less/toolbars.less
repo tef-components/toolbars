@@ -1,0 +1,39 @@
+//
+// TEF components - toolbars
+//
+
+@import "../../utils/less/mixins.less";
+
+.tef-toolbar {
+  background-color: #beccd4;
+  border-top: 1px solid #e5eaec;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  .clearfix();
+
+  li {
+    float: left;
+    height: 40px;
+    min-width: 28px;
+    color: #364145;
+    line-height: 40px;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0 5px;
+    border-right: 1px solid #e5eaec;
+    cursor: pointer;
+    .truncate();
+
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: #d1d9dd;
+    }
+
+    [data-icon] {
+      font-size: 24px;
+    }
+  }
+}

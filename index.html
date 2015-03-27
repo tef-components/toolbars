@@ -32,7 +32,7 @@
   <body>
     <div class="tef-wrapper tef-content">
       <header data-columns="2" data-columns-xs="1">
-        <h1>Tabs</h1>
+        <h1>Toolbars</h1>
         <div>
           <label>Change theme</label>
           <div class="tef-dropdown" data-icon="angle_down">
@@ -46,7 +46,24 @@
         </div>
       </header>
 
-      no content yet!
+      <h2>Default</h2>
+      <ul class="tef-toolbar">
+        <li><i data-icon="user"></i></li>
+        <li>Edit</li>
+        <li class="active"><i data-icon="search"></i></li>
+        <li><i data-icon="help_circle"></i></li>
+      </ul>
+      <code>
+        <style>
+      <ul class="tef-toolbar">
+        <li><i data-icon="user"></i></li>
+        <li>Edit</li>
+        <li class="active"><i data-icon="search"></i></li>
+        <li><i data-icon="help_circle"></i></li>
+      </ul>
+        </style>
+      </code>
+    </div>
 
     <script>
       var theme = document.getElementById('themeSelector');
