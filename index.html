@@ -47,20 +47,71 @@
       </header>
 
       <h2>Default</h2>
-      <ul class="tef-toolbar">
-        <li><i data-icon="user"></i></li>
-        <li>Edit</li>
-        <li class="active"><i data-icon="search"></i></li>
-        <li><i data-icon="help_circle"></i></li>
-      </ul>
+      <nav class="tef-toolbar">
+        <ul>
+          <li><a href=""><i data-icon="user"></i></a></li>
+          <li><a href="">Edit</a></li>
+          <li class="active"><a href=""><i data-icon="search"></i></a></li>
+          <li><a href=""><i data-icon="help_circle"></i></a></li>
+        </ul>
+      </nav>
       <code>
         <style>
-      <ul class="tef-toolbar">
-        <li><i data-icon="user"></i></li>
-        <li>Edit</li>
-        <li class="active"><i data-icon="search"></i></li>
-        <li><i data-icon="help_circle"></i></li>
-      </ul>
+      <nav class="tef-toolbar">
+        <ul>
+          <li><a href=""><i data-icon="user"></i></a></li>
+          <li><a href="">Edit</a></li>
+          <li class="active"><a href=""><i data-icon="search"></i></a></li>
+          <li><a href=""><i data-icon="help_circle"></i></a></li>
+        </ul>
+      </nav>
+        </style>
+      </code>
+
+      <h2>Right aligned</h2>
+      <nav class="tef-toolbar">
+        <ul class="right">
+          <li><a href=""><i data-icon="user"></i></a></li>
+          <li><a href="">Edit</a></li>
+          <li class="active"><a href=""><i data-icon="search"></i></a></li>
+          <li><a href=""><i data-icon="help_circle"></i></a></li>
+        </ul>
+      </nav>
+      <code>
+        <style>
+      <nav class="tef-toolbar">
+        <ul>
+          <li><a href=""><i data-icon="user"></i></a></li>
+          <li><a href="">Edit</a></li>
+          <li class="active"><a href=""><i data-icon="search"></i></a></li>
+          <li><a href=""><i data-icon="help_circle"></i></a></li>
+        </ul>
+      </nav>
+        </style>
+      </code>
+
+      <h2>With buttons</h2>
+      <nav class="tef-toolbar">
+        <ul>
+          <li><button class="tef-button subdued small">Cancel</button></li>
+        </ul>
+        <ul class="right">
+          <li>
+            <button class="tef-button small">OK</button>
+            <button class="tef-button negative small">Delete</button>
+          </li>
+        </ul>
+      </nav>
+      <code>
+        <style>
+      <nav class="tef-toolbar">
+        <ul>
+          <li><button class="tef-button subdued small">Cancel</button></li>
+        </ul>
+        <ul class="right">
+          <li><button class="tef-button negative small">Delete</button></li>
+        </ul>
+      </nav>
         </style>
       </code>
     </div>
